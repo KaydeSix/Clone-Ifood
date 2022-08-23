@@ -1,0 +1,148 @@
+*{
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.formulario{
+    padding: 40px;
+    margin-top: 40px;
+    width: 400px;
+    height: 50%;
+    box-shadow: 2px 5px 20px 5px #888888;
+    border-radius: 6px;
+}
+
+.formulario img{
+    width: 30px;
+}
+
+.formulario h1{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: -.0024em;
+    margin: 0 0 30px;
+    line-height: 50px;
+    color: #414143;
+    font-weight: 500;
+}
+
+.formulario h2{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    color: #717171;
+    margin-bottom: 40px;
+}
+
+form .facebook{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: #4065b4;
+    color: #fff;
+    align-items: center;
+    border-radius: 2px;
+}
+
+form .google{
+    border: 1px solid rgb(156, 156, 156);
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: rgb(156, 156, 156);
+    align-items: center;
+    border-radius: 2px;
+} 
+
+.google img{
+    margin-left: 18px;
+    margin-right: 16%;
+}
+
+.facebook img{
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 18px;
+    margin-right: 16%;
+}
+
+form a{
+    text-decoration: none;
+}
+
+form .botoes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form .botao{
+    border: 1px solid rgb(156, 156, 156);
+    padding: 12px 40px;
+    color: #414143;
+}
+
+.facebook:hover{
+    background-color: #6486d1;
+    border: none;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    background-color: #ea1d2c;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+
+.form-email{
+    margin-top: 160px;
+    width: 400px;
+    height: auto;
+    box-shadow: 2px 5px 20px 5px #888888;
+    border-radius: 6px;
+}
+
+.botao-tunado{
+    border: none;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+}
+
+.titulo{
+    text-align: center;
+    color:#717171;
+    font-weight: 120;
+}
+
+.input-email{
+    display: block;
+    width: 70%;
+    margin: 10%;
+    padding: 12px;
+    border:1px solid #717171;
+    border-radius: 2px;
+}
+
+.button-form{
+    width: 76%;
+    padding: 12px;
+    background-color: #ea1d2c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-bottom: 6%;
+    cursor: pointer;
+}

@@ -1,0 +1,313 @@
+*{
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.container-meio{
+    display: flex;
+    padding-top: 14%;
+    padding-bottom: 35px;
+    background-color: #f7f7f7;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.conteudo-pesquisa h1{
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+}
+
+.conteudo-pesquisa p{
+    font-size: 1rem;
+    color: #717171;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formulario-pesquisa{
+    display: flex;
+    width: 58%;
+}
+
+.container-meio .pesquisar-endereco{
+    background-color: #ea1d2c;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 16px 38px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-meio input[type=text]{
+    width: 100%;
+    border: none;
+    margin-right: 20px;
+    border-radius: 4px;
+    color: #717171;
+    padding: 8px 40px;
+}
+
+.formulario-pesquisa .pesquisa-input{
+    background-image: url("../imagens/icone.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.formulario-pesquisa button:hover{
+    background-color: #ee333f;
+}
+
+.back-pela-metade{
+    width: 100%;
+    height: 50%;
+    background-color: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.categorias{
+    padding-top: 20px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes a{
+    display: flex;
+    text-decoration: none;
+}
+
+.box-1, .box-2{
+    width: 400px;
+    height: 200px;
+    color: #fff;
+    border-radius: 6%;
+}
+
+.box-1{
+    background-color: #ea1d2c;
+    margin-right: 30px;
+}
+
+.box-2{
+    background-color: #b6d048;
+}
+
+.box-1 h1, .box-2 h1{
+    padding: 30px 10px 10px 20px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.box-1 p, .box-2 p{
+    margin-left: 22px;
+    margin-top: 30%;
+    padding: 10px;
+    width: 120px;
+    height: auto;
+    border-radius: 10%;
+    color: #fff;
+    display: inline-block;
+}
+
+.box-1 p{
+    background-color: #cc1825;
+}
+
+.box-2 p{
+    background-color: #9eb53e;
+}
+
+.box-1 img{
+    width: 200px;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.box-2 img{
+    width: 180px;
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.mini-boxes{
+    display: flex;
+    padding-top: 8%;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.mini-box-1 .mini-figure-1{
+    width: 188px;
+    height: 47px;
+    background-color: #f6d553;
+    position: relative;
+    border-radius: 6px;
+}
+
+.mini-box-2 .mini-figure-2{
+    width: 188px;
+    height: 47px;
+    background-color: #f9879c;
+    position: relative;
+    border-radius: 6px;
+}
+
+.mini-box-3 .mini-figure-3{
+    width: 188px;
+    height: 47px;
+    background-color: #8c60c5;
+    border-radius: 6px;
+    position: relative;
+}
+
+.mini-box-2{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.mini-figure-1, .mini-figure-2, .mini-figure-3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mini-boxes a{
+    text-decoration: none;
+}
+
+.mini-boxes p{
+    padding-top: 10px;
+    text-align: center;
+    color:black;
+}
+
+.titulo-painel{
+    padding-top: 40px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(209, 208, 208);
+}
+
+.mini-painel{
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 1% 20px;
+}
+
+.restaurante-exibicao{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 20%;
+    height: auto;
+    display: flex;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 12px;
+}
+
+.restaurante-exibicao:hover{
+    border: 1px solid rgb(116, 116, 116);
+    transition: 0.5s;
+}
+
+.restaurante-exibicao a{
+    text-decoration: none;
+}
+
+.restaurantes-bola{
+    padding: 40px 4px 40px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurantes-bola img:first-child{
+    width: 20%;
+}
+
+.restaurantes-bola img:last-child{
+    width: 22px;
+    height: 22px;
+    margin-top: -80px;
+    
+}
+
+.restaurantes-bola h3{
+    color: black;
+    font-size: small;
+    font-weight: 100;
+}
+
+.restaurantes-bola p{
+    color: grey;
+    font-size: small;
+    font-weight: 100;
+}
+
+@media(max-width:768px){
+    .container-meio{
+        padding-top: 26%;
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-1{
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .mini-boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-box-1, .mini-box-2{
+        padding-bottom:60px;
+    }
+
+    .titulo-painel{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mini-painel{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restaurante-exibicao{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .legendinha h3, .legendinha p{
+        font-size: large;
+    }
+
+    .restaurantes-bola img:first-child{
+        width: 30%;
+    }
+
+    .restaurantes-bola img:last-child{
+        width: 30px;
+        height: 30px;
+
+    }
+}
