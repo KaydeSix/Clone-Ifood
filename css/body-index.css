@@ -256,6 +256,47 @@
     font-weight: 100;
 }
 
+.entrega-restaurante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-entrega-restaurante{
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.caixa-informacao{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 260px;
+}
+
+.caixa-informacao h3{
+    font-size: 2rem;
+    line-height: 2.75rem;
+}
+
+.caixa-informacao p{
+    font-size: 1rem;
+    color: #717171;
+}
+
+.caixa-informacao a{
+    text-decoration: none;
+    width: 40%;
+    height: auto;
+    padding: 10px 20px;
+    background-color: #ea1d2c;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
 @media(max-width:768px){
     .container-meio{
         padding-top: 26%;
