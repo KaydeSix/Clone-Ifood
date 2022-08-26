@@ -241,7 +241,6 @@
     width: 22px;
     height: 22px;
     margin-top: -80px;
-    
 }
 
 .restaurantes-bola h3{
@@ -257,9 +256,11 @@
 }
 
 .entrega-restaurante{
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid rgb(209, 208, 208);;
 }
 
 .box-entrega-restaurante{
@@ -283,13 +284,15 @@
 .caixa-informacao p{
     font-size: 1rem;
     color: #717171;
+    padding-top: 30px;
+    padding-bottom: 18px;
 }
 
 .caixa-informacao a{
     text-decoration: none;
     width: 40%;
     height: auto;
-    padding: 10px 20px;
+    padding: 16px 30px;
     background-color: #ea1d2c;
     color: white;
     border-radius: 4px;
