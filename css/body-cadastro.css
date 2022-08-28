@@ -13,6 +13,8 @@
     height: 50%;
     box-shadow: 2px 5px 20px 5px #888888;
     border-radius: 6px;
+    margin-left: -120px;
+    background-color: white;
 }
 
 .formulario img{
@@ -104,6 +106,8 @@ form .botao{
 }
 
 .form-email{
+    margin-left: -80px;
+    background-color: white;
     margin-top: 160px;
     width: 400px;
     height: auto;
