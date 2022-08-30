@@ -105,14 +105,15 @@ form .botao{
     border: none;
 }
 
-.form-email{
+.new-form{
     margin-left: -80px;
     background-color: white;
     margin-top: 160px;
     width: 400px;
-    height: auto;
+    height: 50%;
     box-shadow: 2px 5px 20px 5px #888888;
     border-radius: 6px;
+    display: none;
 }
 
 .botao-tunado{
@@ -130,13 +131,13 @@ form .botao{
     font-weight: 120;
 }
 
-.input-email{
+.input-new-form{
     display: block;
     width: 70%;
     margin: 10%;
     padding: 12px;
     border:1px solid #717171;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .button-form{
@@ -149,4 +150,12 @@ form .botao{
     margin-left: 10%;
     margin-bottom: 6%;
     cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
 }

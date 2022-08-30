@@ -43,6 +43,13 @@
     cursor: pointer;
 }
 
+.flex .first-button a{
+    border: none;
+    color: #ea1d2c;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .flex .second-button{
     background-color: #ea1d2c;
     border: none;
@@ -51,6 +58,13 @@
     padding: 12px 30px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.flex .second-button a{
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .second-button:hover{
