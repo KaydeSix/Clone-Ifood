@@ -24,6 +24,21 @@ function transicaoIdaSenha(event){
     newFormSenha.classList.add('show')
 }
 
+function entrarHome(event){
+    event.preventDefault();
+
+    window.location.href = "./index.html";
+}
+
+function voltarAoEmail(event){
+    event.preventDefault();
+
+    let formSenha = document.getElementById('new-form-senha')
+    formSenha.classList.remove('show')
+    let formEmail = document.getElementById('new-form')
+    formEmail.classList.add('show')
+}
+
 const cadastrar = document.getElementById('click')
 cadastrar.addEventListener("click", transicaoIdaEmail)
 
@@ -33,5 +48,10 @@ voltar.addEventListener('click', voltarForm)
 const pedirSenha = document.getElementById('email-proximo')
 pedirSenha.addEventListener('click', transicaoIdaSenha)
 
+const entrar = document.getElementById('entrar')
+entrar.addEventListener('click', entrarHome)
+
+const voltarSenha = document.getElementById('voltar-email')
+voltarSenha.addEventListener('click', voltarAoEmail)
 
 
