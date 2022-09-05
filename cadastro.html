@@ -37,10 +37,10 @@
             </form>
         </div>
         <div id="new-form" class="new-form">
-            <form action="">
+            <form>
                 <button type="submit" class="botao-tunado" id="volte"><p><</p></button>
                 <h2 class="titulo">Informe o seu e-mail para continuar</h2>
-                <input class="input-new-form" type="text" name="" id="" placeholder="Informe o seu e-mail">
+                <input class="input-new-form" type="text" id="verify-email" placeholder="Informe o seu e-mail" required>
                 <button id="email-proximo" type="submit" class="button-form"><p>Continuar</p></button>
             </form>
         </div>
@@ -48,9 +48,16 @@
             <form action="">
                 <button type="submit" class="botao-tunado" id="voltar-email"><p><</p></button>
                 <h2 class="titulo">Informe sua senha para continuar</h2>
-                <input class="input-new-form" type="password" name="" id="" placeholder="Informe sua senha">
+                <input class="input-new-form" type="password" name="" id="" placeholder="Informe sua senha" required>
                 <button id="entrar" class="button-form" type="submit"><p>Criar conta!</p></button>
             </form>
+        </div>
+        <div class="conta-criada" id="conta-criada">
+            <div class="mensagem-sucesso">
+                <img src="./imagens/verificado.png" alt="">
+                <h2>Conta criada com sucesso!</h2>
+                <a href="./index.html"><p>Entrar no Ifood</p></a>
+            </div>
         </div>
     </section>
     <script src="./js/cadastro.js"></script>

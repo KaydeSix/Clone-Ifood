@@ -152,6 +152,10 @@ form .botao{
     cursor: pointer;
 }
 
+.conta-criada{
+    display: none;
+}
+
 .hide{
     display: none;
 }

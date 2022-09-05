@@ -16,18 +16,29 @@ function voltarForm(event){
 }
 
 function transicaoIdaSenha(event){
-    event.preventDefault();
 
-    let formEmail = document.getElementById('new-form')
-    formEmail.classList.remove('show')
-    let newFormSenha = document.getElementById('new-form-senha')
-    newFormSenha.classList.add('show')
+    let re = new RegExp("^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$");
+    let email = document.getElementById('verify-email').value
+
+    if(re.test(email) == true){
+        event.preventDefault();
+
+        let formEmail = document.getElementById('new-form')
+        formEmail.classList.remove('show')
+        let newFormSenha = document.getElementById('new-form-senha')
+        newFormSenha.classList.add('show')
+    }
 }
 
 function entrarHome(event){
     event.preventDefault();
 
-    window.location.href = "./index.html";
+    let formSenha = document.getElementById('new-form-senha')
+    formSenha.classList.remove('show')
+    let cadastroSucesso = document.getElementById('conta-criada')
+    cadastroSucesso.classList.add('show')
+
+//window.location.href = "./index.html";
 }
 
 function voltarAoEmail(event){
