@@ -16,17 +16,20 @@ function voltarForm(event){
 }
 
 function transicaoIdaSenha(event){
-
+   
     let re = new RegExp("^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$");
     let email = document.getElementById('verify-email').value
 
-    if(re.test(email) == true){
+    if(re.test(email)){
         event.preventDefault();
 
         let formEmail = document.getElementById('new-form')
         formEmail.classList.remove('show')
         let newFormSenha = document.getElementById('new-form-senha')
         newFormSenha.classList.add('show')
+    }
+    else{
+        console.log('aaaa')
     }
 }
 
