@@ -17,7 +17,7 @@ function voltarForm(event){
 
 function transicaoIdaSenha(event){
    
-    let re = new RegExp("^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$");
+    let re = /\S+@\S+\.\S+/;
     let email = document.getElementById('verify-email').value
 
     if(re.test(email)){
@@ -29,17 +29,28 @@ function transicaoIdaSenha(event){
         newFormSenha.classList.add('show')
     }
     else{
+       
         console.log('aaaa')
     }
 }
 
 function entrarHome(event){
+
+    let re = /^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$/;
+    let password = document.getElementById('verify-password').value
+
+    if(re.test(password)){
     event.preventDefault();
 
     let formSenha = document.getElementById('new-form-senha')
     formSenha.classList.remove('show')
     let cadastroSucesso = document.getElementById('conta-criada')
     cadastroSucesso.classList.add('show')
+    }
+    else{
+        console.log("aa")
+    }
+    
 
 //window.location.href = "./index.html";
 }

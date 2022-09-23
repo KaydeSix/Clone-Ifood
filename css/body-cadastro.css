@@ -153,7 +153,33 @@ form .botao{
 }
 
 .conta-criada{
+    margin-left: -40px;
     display: none;
+    padding-top: 26vh;
+}
+
+.mensagem-sucesso{ 
+    box-shadow: 2px 5px 20px 5px #888888; 
+    padding: 30px; 
+    border-radius: 10px;
+}
+.mensagem-sucesso{ 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    background-color: white;
+}
+
+.mensagem-sucesso a{ 
+    text-decoration: none; 
+    background-color: #ea1d2c; 
+    color: white; 
+    padding: 12px 30px;
+    margin-top: 20px; 
+    border-radius: 5px;
+}
+.mensagem-sucesso a:hover{ 
+    background-color: #f84551;
 }
 
 .hide{
