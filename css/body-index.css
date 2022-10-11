@@ -11,6 +11,36 @@
     align-items: center;
 }
 
+.show-cupons{
+    
+}
+
+.ganhe-cupons{
+    display: flex;
+    position: absolute;
+    margin-left: 50vh;
+    box-shadow: 2px 3px 10px 3px #888888;
+    width: auto;
+    padding: 20px 20px;
+}
+
+.ganhe-cupons img{
+    width: 8vh;
+}
+
+.ganhe-cupons button{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    margin-left: 8vh;
+}
+
+.ganhe-cupons .texto-cupons a{
+    padding-top: 18px;
+}
 
 .conteudo-pesquisa h1{
     font-size: 2.25rem;
